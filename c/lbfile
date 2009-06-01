@@ -1,0 +1,9 @@
+
+shared_lib = {
+	name = "mt",
+	src = "mt.c",
+	incdir = "/root/apps/luasystem/lua/include",
+	libdir = "/root/apps/luasystem/lua/lib",
+	libs = "lua5.1",
+	cflags = "g, O2, Wall, fPIC, W, Waggregate-return, Wcast-align, Wmissing-prototypes, Wnested-externs, Wshadow, Wwrite-strings, pedantic",
+}
